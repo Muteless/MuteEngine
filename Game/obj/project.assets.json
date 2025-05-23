@@ -297,11 +297,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Personal\\Documents\\Engine\\Game\\Game.csproj",
+      "projectUniqueName": "C:\\Users\\Personal\\Documents\\Github\\MuteEngine\\Game\\Game.csproj",
       "projectName": "Game",
-      "projectPath": "C:\\Users\\Personal\\Documents\\Engine\\Game\\Game.csproj",
+      "projectPath": "C:\\Users\\Personal\\Documents\\Github\\MuteEngine\\Game\\Game.csproj",
       "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Personal\\Documents\\Engine\\Game\\obj\\",
+      "outputPath": "C:\\Users\\Personal\\Documents\\Github\\MuteEngine\\Game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
