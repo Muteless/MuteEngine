@@ -10,10 +10,10 @@ namespace Game;
 
 public class Game : Core
 {
-    // Defines the slime animated sprite.
+    // Defines the slime-animated sprite.
     private AnimatedSprite _slime;
 
-    // Defines the bat animated sprite.
+    // Defines the bat-animated sprite.
     private AnimatedSprite _bat;
     
     // Constructor
@@ -32,12 +32,12 @@ public class Game : Core
         // Create a TextureAtlas instance from the atlas
         TextureAtlas atlas = TextureAtlas.FromFile(Content, "Textures/atlas-definition.xml");
         
-        // Create the slime sprite from the atlas
-        _slime = atlas.CreateSprite("slime");
+        // Create the slime-animated sprite from the atlas
+        _slime = atlas.CreateAnimatedSprite("slime-animation");
         _slime.Scale = new Vector2(4.0f, 4.0f);
         
-        // Create the bat sprite from the atlas
-        _bat = atlas.CreateSprite("bat");
+        // Create the bat-animated sprite from the atlas
+        _bat = atlas.CreateAnimatedSprite("bat-animation");
         _bat.Scale = new Vector2(4.0f, 4.0f);
     }
 
@@ -47,7 +47,11 @@ public class Game : Core
             Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
 
-        // TODO: Add your update logic here
+        // Update the slime-animated sprite.
+        _slime.Update(gameTime);
+        
+        // Update the bat-animated sprite.
+        _bat.Update(gameTime);
 
         base.Update(gameTime);
     }
