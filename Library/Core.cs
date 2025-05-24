@@ -2,6 +2,10 @@ using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+
+// Libraries
+using Library.Input;
 
 namespace Library;
 
@@ -33,7 +37,17 @@ public class Core : Microsoft.Xna.Framework.Game
     /// Gets the content manager used to load global assets.
     /// </summary>
     public static ContentManager Content { get; private set; }
+    
+    /// <summary>
+    /// Gets a reference to the input management system.
+    /// </summary>
+    public static InputManager Input { get; private set; }
 
+    /// <summary>
+    /// Gets or Sets a value that indicates if the game should exit when the esc key on the keyboard is pressed.
+    /// </summary>
+    public static bool ExitOnEscape { get; set; }
+    
     /// <summary>
     /// Creates a new Core instance.
     /// </summary>
@@ -82,5 +96,19 @@ public class Core : Microsoft.Xna.Framework.Game
         
         // Create the sprite batch instance
         SpriteBatch = new SpriteBatch(GraphicsDevice);
+        
+        //// Create a new input manager
+        Input = new InputManager();
+    }
+
+    protected override void Update(GameTime gameTime)
+    {
+        // Update the input manager
+        Input.Update(gameTime);
+        
+        // Check for exit on escape
+        if (ExitOnEscape && Input.Keyboard.IsKeyDown(Keys.Escape)) { Exit(); }
+        
+        base.Update(gameTime);
     }
 }
