@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas>
-  <Texture>images/atlas</Texture>
+  <Texture>Textures/atlas</Texture>
   <Regions>
     <!-- Slime Sprites -->
     <Region name="slime-1" x="0" y="0" width="20" height="20" />
@@ -13,15 +13,20 @@
     
   </Regions>
   <Animations>
+    
+    <!-- Slime Animation -->
     <Animation name="slime-animation" delay="200">
       <Frame region="slime-1" />
       <Frame region="slime-2" />
     </Animation>
+    
+    <!-- Bat Animation -->
     <Animation name="bat-animation" delay="200">
       <Frame region="bat-1" />
       <Frame region="bat-2" />
       <Frame region="bat-1" />
       <Frame region="bat-3" />
     </Animation>
+    
   </Animations>
 </TextureAtlas>
