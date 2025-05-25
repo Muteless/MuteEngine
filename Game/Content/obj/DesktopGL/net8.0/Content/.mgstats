@@ -1,4 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
 "C:/Users/Personal/Documents/Github/MuteEngine/Game/Content/Textures/atlas-definition.xml","C:\Users\Personal\Documents\Github\MuteEngine\Game\Content\bin\DesktopGL\Content\Textures/atlas-definition.xml","CopyItem","File",976,976,0.0012454
-"C:/Users/Personal/Documents/Github/MuteEngine/Game/Content/Textures/atlas.png","C:/Users/Personal/Documents/Github/MuteEngine/Game/Content/bin/DesktopGL/Content/Textures/atlas.xnb","TextureProcessor","Texture2DContent",590,16469,0.1148064
+"C:/Users/Personal/Documents/Github/MuteEngine/Game/Content/Textures/atlas.png","C:/Users/Personal/Documents/Github/MuteEngine/Game/Content/bin/DesktopGL/Content/Textures/atlas.xnb","TextureProcessor","Texture2DContent",1844,65621,0.1408223
 "C:/Users/Personal/Documents/Github/MuteEngine/Game/Content/Textures/logo.png","C:/Users/Personal/Documents/Github/MuteEngine/Game/Content/bin/DesktopGL/Content/Textures/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.1217643
+"C:/Users/Personal/Documents/Github/MuteEngine/Game/Content/Textures/tilemap-definition.xml","C:\Users\Personal\Documents\Github\MuteEngine\Game\Content\bin\DesktopGL\Content\Textures/tilemap-definition.xml","CopyItem","File",652,652,0.0013878

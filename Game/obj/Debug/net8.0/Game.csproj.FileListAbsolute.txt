@@ -35,3 +35,4 @@ C:\Users\Personal\Documents\Github\MuteEngine\Game\bin\Debug\net8.0\Library.pdb
 C:\Users\Personal\Documents\Github\MuteEngine\Game\bin\Debug\net8.0\Content\Textures\logo.xnb
 C:\Users\Personal\Documents\Github\MuteEngine\Game\bin\Debug\net8.0\Content\Textures\atlas.xnb
 C:\Users\Personal\Documents\Github\MuteEngine\Game\bin\Debug\net8.0\Content\Textures\atlas-definition.xml
+C:\Users\Personal\Documents\Github\MuteEngine\Game\bin\Debug\net8.0\Content\Textures\tilemap-definition.xml
