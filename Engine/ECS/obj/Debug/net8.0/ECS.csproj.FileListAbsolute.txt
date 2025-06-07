@@ -1,0 +1,13 @@
+D:\Github\MuteEngine\Engine\ECS\bin\Debug\net8.0\ECS.deps.json
+D:\Github\MuteEngine\Engine\ECS\bin\Debug\net8.0\ECS.dll
+D:\Github\MuteEngine\Engine\ECS\bin\Debug\net8.0\ECS.pdb
+D:\Github\MuteEngine\Engine\ECS\obj\Debug\net8.0\ECS.csproj.AssemblyReference.cache
+D:\Github\MuteEngine\Engine\ECS\obj\Debug\net8.0\ECS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\MuteEngine\Engine\ECS\obj\Debug\net8.0\ECS.AssemblyInfoInputs.cache
+D:\Github\MuteEngine\Engine\ECS\obj\Debug\net8.0\ECS.AssemblyInfo.cs
+D:\Github\MuteEngine\Engine\ECS\obj\Debug\net8.0\ECS.csproj.CoreCompileInputs.cache
+D:\Github\MuteEngine\Engine\ECS\obj\Debug\net8.0\ECS.sourcelink.json
+D:\Github\MuteEngine\Engine\ECS\obj\Debug\net8.0\ECS.dll
+D:\Github\MuteEngine\Engine\ECS\obj\Debug\net8.0\refint\ECS.dll
+D:\Github\MuteEngine\Engine\ECS\obj\Debug\net8.0\ECS.pdb
+D:\Github\MuteEngine\Engine\ECS\obj\Debug\net8.0\ref\ECS.dll
