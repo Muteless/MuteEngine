@@ -1,7 +1,12 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.Diagnostics;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using ECS;
+
+using Library;
+using Library.Graphics.Data;
+using Library.Physics.Components;
+using Massive;
 
 namespace Drifters;
 
@@ -15,6 +20,11 @@ public class Game : Core
     protected override void Initialize()
     {
         base.Initialize();
+        
+        var World = new MassiveWorld();
+        int Character = World.Create();
+        World.Add<TextureRegion>(Character);
+        World.Add<Transform>(Character);
     }
 
     protected override void LoadContent()
@@ -28,16 +38,14 @@ public class Game : Core
             Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
 
-        // TODO: Add your update logic here
-
         base.Update(gameTime);
     }
 
     protected override void Draw(GameTime gameTime)
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
-
-        // TODO: Add your drawing code here
+        
+        
 
         base.Draw(gameTime);
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Drifters")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c59e968d76e649a249631a960ed6217e21db66e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f7d6adb418704f4f49a5546813c01580d359195")]
 [assembly: System.Reflection.AssemblyProductAttribute("Drifters")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Drifters")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

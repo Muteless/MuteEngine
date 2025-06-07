@@ -1,0 +1,13 @@
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\bin\Debug\net8.0\Library.deps.json
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\bin\Debug\net8.0\Library.dll
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\bin\Debug\net8.0\Library.pdb
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\obj\Debug\net8.0\Library.csproj.AssemblyReference.cache
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\obj\Debug\net8.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\obj\Debug\net8.0\Library.AssemblyInfoInputs.cache
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\obj\Debug\net8.0\Library.AssemblyInfo.cs
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\obj\Debug\net8.0\Library.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\obj\Debug\net8.0\Library.sourcelink.json
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\obj\Debug\net8.0\Library.dll
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\obj\Debug\net8.0\refint\Library.dll
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\obj\Debug\net8.0\Library.pdb
+C:\Users\Personal\Documents\Github\MuteEngine\Engine\Library\obj\Debug\net8.0\ref\Library.dll
